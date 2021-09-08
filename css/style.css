@@ -55,3 +55,6 @@ a[href$="t"] {
 .post button:active {
 	background-color: green;
 }
+.post:nth-of-type(2n) {
+	background-color: #14213d;
+}
