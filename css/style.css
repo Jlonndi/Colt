@@ -52,3 +52,6 @@ a[href$="t"] {
 .post a:hover {
 	text-decoration: underline;
 }
+.post button:active {
+	background-color: green;
+}
