@@ -58,3 +58,6 @@ a[href$="t"] {
 .post:nth-of-type(2n) {
 	background-color: #14213d;
 }
+button:first-child {
+	background-color: red;
+}
