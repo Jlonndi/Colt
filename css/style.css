@@ -39,10 +39,10 @@ h2 + button {
 footer > a {
 	color: #78c6a3;
 }
-input[type="password"] {
+input[type='password'] {
 	color: yellowgreen;
 }
-a[href$="t"] {
+a[href$='t'] {
 	color: magenta;
 }
 .post button:hover {
@@ -60,4 +60,18 @@ a[href$="t"] {
 }
 button:first-child {
 	background-color: red;
+}
+h2::first-letter {
+	font-size: 50px;
+}
+.ribbon {
+	color: black;
+	background-color: #5bc8f7;
+}
+
+.ribbon::after {
+	content: 'Look at this orange box.';
+	background-color: #ffba10;
+	border-color: black;
+	border-style: dotted;
 }
